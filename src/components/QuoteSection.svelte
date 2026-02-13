@@ -103,8 +103,18 @@
       toEmail: 'aidanparkhurst@gmail.com'
     };
 
+    const confirmationData = {
+      fullName: form.fullName.value,
+      toEmail: form.email.value
+    };
+
     try {
+      // Send to admin
       await emailjs.send('service_zzormiu', 'template_instant_quote', formData);
+      
+      // Send confirmation to contact
+      await emailjs.send('service_zzormiu', 'template_confirmation', confirmationData);
+      
       submitStatus = 'success';
       form.reset();
       setTimeout(() => {
@@ -236,16 +246,16 @@
     font-size: 1.2rem;
     padding: 0.75rem 2rem;
     border: 2px solid #3a4a5e;
-    background-color: transparent;
-    color: #3a4a5e;
+    background-color: #3a4a5e;
+    color: rgb(240, 240, 240);
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s;
   }
 
   .booking-btn.small:hover {
-    background-color: #3a4a5e;
-    color: rgb(240, 240, 240);
+    background-color: rgba(210, 210, 220, 0.5);
+    color: #3a4a5e;
   }
 
   .booking-btn.small:disabled {

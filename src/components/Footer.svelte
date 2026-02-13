@@ -23,8 +23,8 @@
     <div class="footer-col">
       <h3 class="footer-title">Socials</h3>
       <ul class="footer-list">
-        <li><a href="https://instagram.com/yourhandle" target="_blank" rel="noreferrer">Instagram</a></li>
-        <li><a href="https://tiktok.com/@yourhandle" target="_blank" rel="noreferrer">TikTok</a></li>
+        <li><a href="https://instagram.com/aidanparkhurst" target="_blank" rel="noreferrer">Instagram</a></li>
+        <li><a href="https://tiktok.com/@arpkst" target="_blank" rel="noreferrer">TikTok</a></li>
         <li><a href="https://rkhur.st" target="_blank" rel="noreferrer">Personal site</a></li>
       </ul>
     </div>
@@ -32,6 +32,10 @@
 
   <div class="footer-bottom">
     <small>© 2026 Aidan Parkhurst — All rights reserved</small>
+  </div>
+
+  <div class="footer-deck-container">
+    <img src="/images/spread_total.png" alt="deck of cards" class="footer-deck-image" />
   </div>
 </footer>
 
@@ -113,6 +117,44 @@
     .footer-content {
       grid-template-columns: 1fr;
       text-align: center;
+    }
+
+    .site-footer {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .footer-deck-container {
+      position: absolute;
+      left: -40%;
+      top: 5%;
+      height: 100%;
+      width: auto;
+      overflow: hidden;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .footer-deck-image {
+      height: 100%;
+      width: auto;
+      object-fit: contain;
+      opacity: 0.9;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .footer-sep,
+    .footer-content,
+    .footer-bottom {
+      position: relative;
+      z-index: 1;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .footer-deck-container {
+      display: none;
     }
   }
 </style>

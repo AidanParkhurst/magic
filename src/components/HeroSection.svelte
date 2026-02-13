@@ -9,14 +9,13 @@
 
 <div class="content-container">
   <div class="text-section">
-    <p class="subtitle">The Close Up Magic of</p>
+    <p class="subtitle">Presenting Aidan Parkhurst's</p>
     <h1 class="name">
-      <span class="first-name">Aidan</span><br>
-      <span class="last-name">Parkhurst</span>
+      <span class="first-name">Magic Up Close</span><br>
     </h1>
     
     <p class="description">
-      New Jersey born close-up magician and mentalist. Sharing magic, wonder, and smiles for 6+ years.<br>
+      Share wonder with your guests, and make your event unforgettable.
       "From Boston to New York City, and even as far as Mexico, Aidan brings a warm, personable approach to magic."
     </p>
     
@@ -65,7 +64,7 @@
     }
 
     .description {
-      width: 75%;
+      width: 100%;
     }
 
     .booking-btn {
@@ -92,17 +91,16 @@
   .name {
     font-family: 'Forum', serif;
     font-weight: normal;
-    line-height: .9;
     margin: 0 0 3rem 0;
     color: #3a4a5e;
   }
 
   .first-name {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .last-name {
-    font-size: 3rem;
+    font-size: 3.3rem;
     color: #3a4a5e;
   }
 
@@ -119,16 +117,16 @@
     font-size: 1.2rem;
     padding: 0.75rem 2rem;
     border: 2px solid #3a4a5e;
-    background-color: transparent;
-    color: #3a4a5e;
+    background-color: #3a4a5e;
+    color: rgb(240, 240, 240);
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s;
   }
 
   .booking-btn:hover {
-    background-color: #3a4a5e;
-    color: rgb(240, 240, 240);
+    background-color: rgba(210, 210, 220, 0.5);
+    color: #3a4a5e;
   }
 
   .mirror-image {
@@ -156,10 +154,7 @@
       font-size: 0.9rem;
     }
     .first-name {
-      font-size: 4rem;
-    }
-    .last-name {
-      font-size: 2.5rem;
+      font-size: 3rem;
     }
     .booking-btn {
       font-size: 1rem;

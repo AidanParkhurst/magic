@@ -1,3 +1,12 @@
+<script>
+  function handleQuoteClick() {
+    const quoteSection = document.getElementById('quote-section');
+    if (quoteSection) {
+      quoteSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+</script>
+
 <section class="services-section">
   <h2 class="services-title">Two Magical Experiences</h2>
   <div class="services-container">
@@ -32,6 +41,10 @@
           <li>Grand openings & special occasions</li>
         </ul>
       </div>
+
+      <button class="booking-btn" on:click={handleQuoteClick}>
+        Check Availability
+      </button>
     </div>
     <div class="service-card">
       <h3 class="service-name"><strong>Curious Connections</strong></h3>
@@ -59,6 +72,10 @@
           <li>Theatrical venues & fundraising events</li>
         </ul>
       </div>
+
+      <button class="booking-btn" on:click={handleQuoteClick}>
+        Check Availability
+      </button>
     </div>
   </div>
 </section>
@@ -96,6 +113,8 @@
     border: 1px solid #5a6a7e;
     border-radius: 12px;
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
   }
 
   .service-name {
@@ -123,10 +142,11 @@
 
   .card-section {
     margin-bottom: 1.5rem;
+    flex-grow: 1;
   }
 
   .card-section:last-child {
-    margin-bottom: 0;
+    margin-bottom: 1.5rem;
   }
 
   .card-heading {
@@ -161,6 +181,24 @@
     content: '•';
     position: absolute;
     left: 0;
+    color: #3a4a5e;
+  }
+
+  .booking-btn {
+    font-family: 'Forum', serif;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid #3a4a5e;
+    background-color: #3a4a5e;
+    color: rgb(240, 240, 240);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 100%;
+  }
+
+  .booking-btn:hover {
+    background-color: rgba(210, 210, 220, 0.5);
     color: #3a4a5e;
   }
 

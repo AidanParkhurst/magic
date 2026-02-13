@@ -4,8 +4,8 @@
       <p class="subtitle">The Mission</p>
       <h2 class="section-title">Magic At Your Fingertips</h2>
       <p class="section-description">
-        More than seen, magic is felt. Using ordinary objects like cards, pens, and coins, Aidan creates extraordinary moments of mystery and connection, that unfold directly in your guests’ hands.
-        His interactive close-up illusions turn corporate events and private gatherings into memorable experiences: energizing the room, engaging every guest, and inspiring people to talk about your event, long after it ends.
+        More than seen, Aidan's magic is felt. For 6+ years he's used ordinary objects like cards, pens, and coins to create extraordinary moments of mystery and connection.
+        With illusions unfolding directly in your guests’ hands, Aidan turns corporate events or private gatherings into unforgettable experiences: energizing the room, engaging every guest, and inspiring people to keep talking long after the party ends.
       </p>
     </div>
     

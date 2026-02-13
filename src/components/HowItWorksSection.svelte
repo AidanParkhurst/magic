@@ -61,7 +61,7 @@
 
   .center-text {
     position: absolute;
-    left: 15%;
+    left: 24%;
     top: 12%;
     transform: none;
     text-align: left;
@@ -104,7 +104,7 @@
     align-items: center;
     justify-content: flex-start;
     gap: 1.5rem;
-    padding: 0 0 0 15%;
+    padding: 0 0 0 24%;
     width: 60%;
     box-sizing: border-box;
     position: absolute;
