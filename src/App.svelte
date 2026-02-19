@@ -4,6 +4,8 @@
   import About from './pages/About.svelte';
   import Media from './pages/Media.svelte';
   import Bookings from './pages/Bookings.svelte';
+  import BlogPost from './pages/BlogPost.svelte';
+  import FAQ from './pages/FAQ.svelte';
 
   export let url = "";
 </script>
@@ -21,6 +23,12 @@
     </Route>
     <Route path="/bookings">
       <Bookings />
+    </Route>
+    <Route path="/faq">
+      <FAQ />
+    </Route>
+    <Route path="/blog/:slug">
+      <BlogPost />
     </Route>
   </div>
 </Router>

@@ -9,6 +9,37 @@
   import Footer from '../components/Footer.svelte';
 </script>
 
+<svelte:head>
+  <title>Professional Magician New Jersey & New York | Aidan Parkhurst Magic</title>
+  <meta name="description" content="Aidan Parkhurst offers close-up magic, corporate entertainment, and event magic in New Jersey and New York. Book a professional magician for your next event." />
+  <meta property="og:title" content="Professional Magician New Jersey & New York | Aidan Parkhurst Magic" />
+  <meta property="og:description" content="Aidan Parkhurst offers close-up magic, corporate entertainment, and event magic in New Jersey and New York." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://magicupclo.se/" />
+  <link rel="canonical" href="https://magicupclo.se/" />
+  
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Magic Up Close",
+      "alternateName": "Aidan Parkhurst Magic",
+      "description": "Professional magician offering close-up magic and corporate entertainment",
+      "url": "https://magicupclo.se/",
+      "telephone": "+1-201-248-5985",
+      "email": "aidanp@rkhur.st",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "New Jersey",
+        "addressCountry": "US"
+      },
+      "areaServed": ["New Jersey", "New York"],
+      "priceRange": "$$",
+      "serviceType": ["Close-Up Magic", "Corporate Magic", "Event Magic", "Wedding Magic", "Private Party Magic"]
+    }
+  </script>
+</svelte:head>
+
 <Navigation />
 
 <main>

@@ -7,10 +7,10 @@
     <div class="footer-col">
       <h3 class="footer-title">Overview</h3>
       <ul class="footer-list">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
+        <li><a href="/">About</a></li>
         <li><a href="/bookings">Bookings</a></li>
         <li><a href="/media">Media</a></li>
+        <li><a href="/faq">FAQ</a></li>
       </ul>
     </div>
 

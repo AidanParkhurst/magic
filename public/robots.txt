@@ -1,0 +1,13 @@
+# Robots.txt for Aidan Parkhurst Magic Up Close
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /private
+
+# Specify sitemap location
+# Sitemap: https://magicupclo.se/sitemap.xml
+
+# Crawl delay (in seconds) - optional, prevents server overload
+Crawl-delay: 1

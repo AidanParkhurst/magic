@@ -2,6 +2,16 @@
   import Navigation from '../components/Navigation.svelte';
 </script>
 
+<svelte:head>
+  <title>Book a Magician | Aidan Parkhurst Magic</title>
+  <meta name="description" content="Book Aidan Parkhurst for your event. Contact us for close-up magic, corporate entertainment, and professional magic performances in New Jersey and New York." />
+  <meta property="og:title" content="Book a Magician | Aidan Parkhurst Magic" />
+  <meta property="og:description" content="Book Aidan Parkhurst for your event. Contact us for professional magic performances." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://magicupclo.se/bookings" />
+  <link rel="canonical" href="https://magicupclo.se/bookings" />
+</svelte:head>
+
 <Navigation />
 
 <main>
